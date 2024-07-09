@@ -1,5 +1,7 @@
 # An Authentication Method Based on ECG
 
+The goal of this project is to implement an electrocardiogram (ECG) based authentication system, the tools used are the ECG module AD8232 and its accessories, the Arduino Uno development board, and the kNN algorithm will be used to achieve identification by analyzing the metrics such as the R-P distance and the R-T distance.
+
 ## 1. Data Collecting
 
 ### I. Hardware Settings
