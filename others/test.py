@@ -1,0 +1,1 @@
+import numpy as npimport matplotlib.pyplot as plt# 读取二进制数据data = np.fromfile('100.dat', dtype=np.float32)  # 假设数据是32位浮点数# 处理数据print(data)print(len(data))plt.plot(data)plt.xlim(100000,200000)plt.show()
